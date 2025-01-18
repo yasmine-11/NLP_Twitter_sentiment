@@ -22,21 +22,21 @@ diligence, diverse model evaluation metrics, and the exploration of hyperparamet
 collectively contributing to advancements in sentiment analysis.<br/>
 This project's main objective is to deploy advanced text classification techniques to tackle the challenges
 posed by sentiment analysis in Twitter data. The objectives of this project are as follows: <br/>
-1. Data preprocessing and cleaning: To ensure data usability in our text classification project, robust
-data preprocessing and cleaning techniques have been applied to our data.<br/>
-2. Exploratory Data Analysis (EDA): Conduct an EDA in order to better understand and gain insight into
-the data.<br/>
-3. Text Representation: Apply different vectorization techniques (Count vectorizer, TF-IDF) to convert
-data into numerical features suitable for machine learning models. Evaluate and compare the
-performance of each vectorization method across multiple classification algorithms.<br/>
-4. Model Implementation: Apply logistic regression and Naive Bayes as baselines, SVM, random forest
-and KNN classification algorithms to the vectorized data. Compare and evaluate the performance of
-each model in handling Twitter sentiments.<br/>
-5. Hyperparameter Tuning: Employ RandomizedSearchCV to further optimize hyperparameters for the
-best-performing model.<br/>
-6. Cross-validation: Implement cross-validation techniques to asses the generalization capability of the
-best-performing model. The latter ensures consistency of model performance across different subsets
-of the data.<br/>
-7. Confusion Matrix Analysis: To further evaluate model performance, develop confusion matrices for
-each classification model, providing a detailed breakdown of true positives, true negatives, false
-positives, and false negatives.<br/>
+  1. Data preprocessing and cleaning: To ensure data usability in our text classification project, robust
+  data preprocessing and cleaning techniques have been applied to our data.<br/>
+  2. Exploratory Data Analysis (EDA): Conduct an EDA in order to better understand and gain insight into
+  the data.<br/>
+  3. Text Representation: Apply different vectorization techniques (Count vectorizer, TF-IDF) to convert
+  data into numerical features suitable for machine learning models. Evaluate and compare the
+  performance of each vectorization method across multiple classification algorithms.<br/>
+  4. Model Implementation: Apply logistic regression and Naive Bayes as baselines, SVM, random forest
+  and KNN classification algorithms to the vectorized data. Compare and evaluate the performance of
+  each model in handling Twitter sentiments.<br/>
+  5. Hyperparameter Tuning: Employ RandomizedSearchCV to further optimize hyperparameters for the
+  best-performing model.<br/>
+  6. Cross-validation: Implement cross-validation techniques to asses the generalization capability of the
+  best-performing model. The latter ensures consistency of model performance across different subsets
+  of the data.<br/>
+  7. Confusion Matrix Analysis: To further evaluate model performance, develop confusion matrices for
+  each classification model, providing a detailed breakdown of true positives, true negatives, false
+  positives, and false negatives.<br/>
